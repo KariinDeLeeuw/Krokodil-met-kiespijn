@@ -8,7 +8,27 @@
   <title>Krokodil met kiespijn</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Kroko <br> <span>Doc</span>
+    </h1>
+  </header>
+  <main>
+    <aside>
+      <div class="sidebar-item sidebar-item-active" id="game-start">  
+        <h2>Enter player name</h2>
+        <div class="input-wrapper">
+            <input type="text" placeholder="Player 1 name" class="player-input">
+        </div>
+        <div class="input-wrapper">
+          <input type="text" placeholder="Player 2 name" class="player-input">
+        </div>
+        <div class="input-wrapper">
+          <input type="text" placeholder="Player 3 name" class="player-input">
+        </div>
+        <button onclick="newGame()">Start game</button>
+      </div>
+    </aside>
+  </main>
   <script src="/src/script.js"></script>
 </body>
 </html>
