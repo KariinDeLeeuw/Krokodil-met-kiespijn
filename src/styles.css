@@ -127,3 +127,39 @@ img {
   bottom: -0.2vh;
   z-index: 9;
 }
+
+.tanden-wrapper {
+  width: 68%;
+  height: 10%;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 24%;
+  z-index: 1;
+}
+
+.tanden-wrapper.transparent-tanden-wrapper {
+  z-index: 3;
+}
+
+.tand {
+  height: 100%;
+  background-color: white;
+  flex-grow: 1;
+  margin: 0 2px;
+  border-radius: 20px 20px 0 0;
+  transition: 0.4s all ease-in-out;
+}
+
+.tand.transparent-tand {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.tand.white-tand.hovertand {
+  height: 92%;
+}
+
+.tand.white-tand.geklikttand {
+  height: 0%;
+}
