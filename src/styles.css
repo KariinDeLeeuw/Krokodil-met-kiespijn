@@ -6,4 +6,9 @@
 
 body {
   color: #333333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 62.5%;
+  background-image: url(/img/jungle-background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
