@@ -63,7 +63,7 @@ aside {
 input {
   width: 100%;
   font-size: 1.4rem;
-  margin: 6px 0;
+  margin: 2px 0;
   height: 52px;
   padding: 0 12px;
   border-radius: 12px;
@@ -74,4 +74,21 @@ input {
 input:hover,
 input:focus {
   border: 2px solid #25d544;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 16px 20px;
+  border: none;
+  background: #25d544;
+  color: white;
+  border-radius: 12px;
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+button:hover {
+  background: #20a038;
+  transform: translateY(-1px);
 }
