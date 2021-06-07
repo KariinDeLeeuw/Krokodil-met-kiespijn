@@ -92,3 +92,38 @@ button:hover {
   background: #20a038;
   transform: translateY(-1px);
 }
+
+.game-outer-wrapper {
+  flex-grow: 1;
+}
+
+.game-wrapper {
+  width: 600px;
+  height: 100%;
+  max-width: 60vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.onder-kaak {
+  position: absolute;
+  z-index: 2;
+}
+
+.boven-kaak {
+  position: absolute;
+}
+
+.boven-kaak.gehapt {
+  bottom: -0.2vh;
+  z-index: 9;
+}
