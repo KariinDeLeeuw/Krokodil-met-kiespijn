@@ -3,7 +3,6 @@
   box-sizing: border-box;
   outline: none;
 }
-
 body {
   color: #333333;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,14 +11,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 header {
   min-height: 32vh;
   padding: 2rem 6rem;
   background-color: #dc341e;
   text-align: center;
 }
-
 h1 {
   font-size: 10rem;
   line-height: 1;
@@ -29,7 +26,6 @@ h1 {
   text-shadow: -12px 12px 0 #243b52;
   margin-bottom: -8.2rem;
 }
-
 h1 > span {
   color: white;
   font-size: 5rem;
@@ -37,12 +33,10 @@ h1 > span {
   position: relative;
   top: -8.2rem;
 }
-
 h2 {
   font-size: 1.4rem;
   margin-bottom: 12px;
 }
-
 main {
   height: 68vh;
   width: 100vw;
@@ -50,7 +44,6 @@ main {
   display: flex;
   align-items: stretch;
 }
-
 aside {
   width: 320px;
   flex-shrink: 0;
@@ -58,12 +51,10 @@ aside {
   border-right: 2px solid #333333;
   background-color: white;
 }
-
 .input-wrapper {
   margin-bottom: 20px;
   width: 100%;
 }
-
 input {
   width: 100%;
   font-size: 1.4rem;
@@ -74,12 +65,10 @@ input {
   border: 2px solid #333333;
   transition: 0.2s all ease-in-out;
 }
-
 input:hover,
 input:focus {
   border: 2px solid #25d544;
 }
-
 button {
   width: 100%;
   text-align: center;
@@ -92,7 +81,6 @@ button {
   transition: 0.2s all ease-in-out;
   cursor: pointer;
 }
-
 button:hover {
   background: #20a038;
   transform: translateY(-1px);
@@ -101,7 +89,6 @@ button:hover {
 .game-outer-wrapper {
   flex-grow: 1;
 }
-
 .game-wrapper {
   width: 600px;
   height: 100%;
@@ -113,26 +100,21 @@ button:hover {
   position: relative;
   overflow: hidden;
 }
-
 img {
   width: 100%;
   max-width: 100%;
 }
-
 .onder-kaak {
   position: absolute;
   z-index: 2;
 }
-
 .boven-kaak {
   position: absolute;
 }
-
 .boven-kaak.gehapt {
   bottom: -0.2vh;
   z-index: 9;
 }
-
 .tanden-wrapper {
   width: 68%;
   height: 10%;
@@ -142,11 +124,9 @@ img {
   bottom: 24%;
   z-index: 1;
 }
-
 .tanden-wrapper.transparent-tanden-wrapper {
   z-index: 3;
 }
-
 .tand {
   height: 100%;
   background-color: white;
@@ -155,7 +135,6 @@ img {
   border-radius: 20px 20px 0 0;
   transition: 0.4s all ease-in-out;
 }
-
 .tand.transparent-tand {
   cursor: pointer;
   background-color: transparent;
@@ -164,7 +143,6 @@ img {
 .tand.white-tand.hovertand {
   height: 92%;
 }
-
 .tand.white-tand.geklikttand {
   height: 0%;
 }
@@ -172,7 +150,6 @@ img {
 .sidebar-item {
   display: none;
 }
-
 .sidebar-item-active {
   display: block;
 }
@@ -180,16 +157,13 @@ img {
 .restart-button {
   background-color: orange;
 }
-
 .restart-button:hover {
   background-color: rgb(223, 149, 12);
 }
-
 .end-game-button {
   margin-top: 12px;
   background-color: red;
 }
-
 .end-game-button:hover {
   background-color: rgb(199, 22, 22);
 }
@@ -197,19 +171,16 @@ img {
 #players-wrapper {
   margin-bottom: 32px;
 }
-
 .player-item {
   margin: 4px 0;
   font-size: 1rem;
   display: flex;
   position: relative;
 }
-
 .player-number {
   font-weight: 700;
   margin-right: 12px;
 }
-
 .player-active-mark {
   position: absolute;
   right: 0;
@@ -219,7 +190,6 @@ img {
   background-color: #20a038;
   opacity: 0%;
 }
-
 .player-active-mark.active {
   opacity: 100%;
 }
