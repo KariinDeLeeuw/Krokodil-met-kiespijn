@@ -14,32 +14,32 @@
   </header>
   <main>
     <aside>
-      <div class="sidebar-item sidebar-item-active" id="game-start">  
+      <div class="sidebar-item sidebar-item-active" id="game-start">
         <h2>Enter player name</h2>
         <div class="input-wrapper">
-            <input type="text" placeholder="Player 1 name" class="player-input">
+          <input class="player-input" type="text" placeholder="Player 1 name">
         </div>
         <div class="input-wrapper">
-          <input type="text" placeholder="Player 2 name" class="player-input">
+          <input class="player-input" type="text" placeholder="Player 2 name">
         </div>
         <div class="input-wrapper">
-          <input type="text" placeholder="Player 3 name" class="player-input">
+          <input class="player-input" type="text" placeholder="Player 3 name">
         </div>
         <button onclick="newGame()">Start game</button>
       </div>
-        <div class="sidebar-item" id="game-active">
-          <h2>Player names</h2>
-          <div id="players-wrapper">
-            <!-- Wordt gevuld met JS -->
-            <div class="player-item">
-              <div class="player-number">Player 1</div>
-              <div class="player-name">Karel den Besten</div>
-              <div class="player-active-mark"></div>
-            </div>
-          </div>
-          <button class="restart-button" onclick="newGame()">Restart game</button>
-          <button class="end-game-button" onclick="stopGame()">Stop game</button>
+      <div class="sidebar-item" id="game-active">
+        <h2>Player names</h2>
+        <div id="players-wrapper">
+          <!-- wordt gevuld met JS -->
+          <!-- <div class="player-item">
+            <div class="player-number">Player 1</div>
+            <div class="player-name">Karel de beste</div>
+            <div class="player-active-mark"></div>
+          </div> -->
         </div>
+        <button class="restart-button" onclick="newGame()">Restart game</button>
+        <button class="end-game-button" onclick="stopGame()">Stop game</button>      
+      </div>
     </aside>
     <div class="game-outer-wrapper">
       <div class="game-wrapper">
